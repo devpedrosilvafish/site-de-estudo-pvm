@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+body {
+    width: 0%;
+    height: 0%;
+}
+
+.interfacepvm {
+    font-family: "Comic Sans MS";
+    color: navajowhite;
+    width: 1000px;
+    margin: 0px auto 0px auto;
+}
+
 .indexpvm{
     font-size: 30px;
     margin: 0px;
