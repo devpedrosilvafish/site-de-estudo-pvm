@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.interfacepvm {
+    font-family: "Comic Sans MS";
+    color: navajowhite;
+    width: 1000px;
+    margin: 0px auto 0px auto;
+}
+
+.indexpvm{
+    font-size: 30px;
+    margin: 0px;
+    padding: 20px 0px 40px 252px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.convitespvm {
+    color: antiquewhite;
+}
+
+div#convitespvm {
+    color: navajowhite;
+    
+}
+
+div#imagemprincipal {
+    width: 1550px;
+    height: 700px;
+    background-image: url('../imagens/ronan.jpeg');
+    object-fit: cover;
+    background-position: 60% 30%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: -20px;
+}
+
+/*parte do texto de contato*/
+
+div#textocontato {
+    width: 1400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgba(137, 137, 137, 0.4);
+    font-weight: 100;
+    text-align: center;
+    margin-left: 50px;
+}
+
+div#textocontato h1 {
+    color: rgb(175, 113, 5);
+    text-decoration: underline;
+    size: 30pt;
+}
+
+div#textocontato h2 {
+    font-size: 22pt;
+    margin-top: 40px;
+}
+
+div#textocontato p {
+    font-size: 16pt;
+    color: rgba(137, 137, 137, 0.8);
+}

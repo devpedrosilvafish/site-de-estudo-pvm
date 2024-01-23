@@ -1,0 +1,338 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Comic Sans MS";
+    background-color:rgb(7, 20, 24);
+    overflow-x: hidden;
+    }
+
+.interfacepvm {
+    font-family: "Comic Sans MS";
+    color: navajowhite;
+    width: 1000px;
+    margin: 0px auto 0px auto;
+}
+
+.indexpvm{
+    font-size: 30px;
+    margin: 0px -10px -25px 0px;
+    padding: 20px 0px 40px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.indexpvm a {
+    color: navajowhite;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Formatação de menu */
+
+div.menupvm ul{
+
+    position: absolute;
+    text-transform: uppercase;
+    list-style: none;
+    left: 630px;
+    top: 0px;
+    display: block;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+}
+
+div.menupvm li{
+    display: inline-block;
+    color: navajowhite;
+    padding: 14px;
+
+}
+
+div.menupvm a {
+    color: navajowhite;
+}
+
+div.menupvm a:hover {
+    color: rgb(255, 185, 8);
+    
+    
+}
+
+/*Formatação de imagem principal*/
+div#indextextoimagem::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../imagens/IMG_3293.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(0.50) opacity(0.6);
+    z-index: -1; 
+}
+div#indextextoimagem {
+    width: 1530px;
+    height: 650px;
+    margin-left: -260px;
+    padding-top: -500px;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+iframe#youtube {
+    position: absolute;
+    margin: 200px 800px;
+    z-index: 1;
+}
+
+div#indextextoimagem h2 {
+    display: block;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 40px;
+    margin: 140px 750px 250px 250px;
+    padding: 50px 0px 0px 0px;
+    position: absolute;
+}
+
+div#indextextoimagem h3 a {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 500px;
+    position: absolute;
+    margin: 400px 750px 100px 450px;
+    padding: 7px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(47, 167, 31);
+    border-radius: 2px;
+    color: navajowhite;
+}
+
+div#indextextoimagem h3 a:hover {
+    color: rgb(178, 128, 0);
+    transition:.5s;
+}
+
+div#indextextoimagem h4 {
+    opacity: 0;
+}
+/* Noticias */
+div#titulonoticia {
+    text-align: center;
+    margin-top: 80px ;
+    margin-bottom: 80px;
+    position: relative;
+    font-family: 'Segoe UI', sans-serif;
+    border: #071418;
+    font-size: 25px;
+}
+
+/* Ancora Link */
+
+div#textonoticia1 a {
+    text-decoration: none;
+}
+
+
+div#textonoticia1 {
+    text-align: left;
+    width: 250px;
+    height: 500px;
+    margin: 0px 30px;
+    padding: 30px 20px;
+    position: absolute;
+    font-family: 'Segoe UI', sans-serif;  
+    background: #051013; 
+}
+
+img#imgtxtnoticia1 {
+    width: 290px;
+    height: 150px;
+    object-fit: cover;
+    position: relative;
+    margin: -30px -20px 0px -20px;
+}
+
+div#textonoticia1 h2 a {
+    color: rgb(201, 151, 3);
+    font-size: 18pt;
+}   
+
+div#textonoticia1 p {
+    font-size: 12pt;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+div#textonoticia1 h3 a {
+    text-align: center;
+    margin: -25px 80px 500px 80px;
+    padding: 6px;
+    position: absolute;
+    border: solid rgb(201, 151, 3);
+    font-size: 12pt;
+    border-radius: 3px;
+    border-width: 1px ;
+    color: navajowhite;
+}
+
+div#textonoticia1 h3 a:hover {
+    color: navajowhite;
+    background-color:rgb(255, 185, 8, .3) ;
+
+}
+
+div#textonoticia2 {
+    text-align: left;
+    width: 250px;
+    height: 500px;
+    margin: 0px 355px;
+    padding: 30px 20px;
+    position: absolute;
+    font-family: 'Segoe UI', sans-serif; 
+    background-color: #051013;
+}
+
+img#imgtxtnoticia2 {
+    width: 290px;
+    height: 150px;
+    object-fit: cover;
+    position: relative;
+    margin: -30px -20px 0px -20px;
+}
+
+div#textonoticia2 h2 {
+    color: rgb(201, 151, 3);
+    font-size: 18pt;
+}
+
+div#textonoticia2 p {
+    font-size: 12pt;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+div#textonoticia2 h3 a {
+    text-align: center;
+    margin: -25px 80px 500px 80px;
+    padding: 6px;
+    position: absolute;
+    border: solid rgb(201, 151, 3);
+    font-size: 12pt;
+    border-radius: 3px;
+    border-width: 1px ;
+    color: navajowhite;
+}
+
+div#textonoticia2 h3 a:hover {
+    color: navajowhite;
+    background-color:rgb(255, 185, 8, .3) ;
+}
+
+
+div#textonoticia3 {
+    text-align: left;
+    width: 250px;
+    height: 500px;
+    margin: 0px 680px;
+    padding: 30px 20px;
+    position: absolute;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #051013;
+    
+}
+
+div#textonoticia3 h3 a {
+    text-align: center;
+    margin: -25px 80px 500px 80px;
+    padding: 6px;
+    position: absolute;
+    border: solid rgb(201, 151, 3);
+    font-size: 12pt;
+    border-radius: 3px;
+    border-width: 1px ;
+    color: navajowhite;
+}
+
+div#textonoticia3 h3 a:hover {
+    color: navajowhite;
+    background-color:rgb(255, 185, 8, .3) ;
+}
+
+
+
+img#imgtxtnoticia3 {
+    width: 290px;
+    height: 150px;
+    object-fit: cover;
+    position: relative;
+    margin: -30px -20px 0px -20px;
+}
+
+div#textonoticia3 h2 {
+    color: rgb(201, 151, 3);
+    font-size: 18pt;
+}
+
+div#textonoticia3 p {
+    font-size: 12pt;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+iframe#noticias {
+    position: center;
+    width: 1000px;
+    height: 600px;
+}
+
+.noticiasindex {
+    border: 1px solid black;
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.noticiageral:hover {
+    transform: scale(1.1);
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+#iframeContainer {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  #div1, #div2, #div3 {
+    width: 33.33%;
+    height: 50vh;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #000;
+  }
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+    margin: 700px -500px -20px -500px;
+    padding: 0px 0px -100px 0px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer#rodape p {
+    text-align: center;
+    padding: 15px 15px 30px 15px;
+}
+
+
+

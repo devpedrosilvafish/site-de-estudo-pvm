@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Convites - Projeto Vida Music</title>
+    <link rel="stylesheet" type="text/css" href="css/projeto-vida-music.css"/>
+    <link rel="stylesheet" type="text/css" href="css/convites.css"/>
+    <link rel="stylesheet" type="text/css" href="css/formpvm.css"/>
+
+</head>
+<body>
+    <div class="convitespvm">
+        <header class="cabecalhopvm">
+            <hgroup>
+                <h1 class="indexpvm"><a href="index.html">Projeto Vida Music</a></h1>
+            </hgroup>
+
+        <div class="menupvm">
+
+            <ul type="disc">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="convites.html"><span style="color: rgb(255, 185, 8);">Convite</span></a></li>
+                <li><a href="agenda.html">Agenda 2023</a></li>
+                <li><a href="sobre_discografia.html">Sobre/Discografia</a></Li>
+                <li><a href="noticia.html">Notícias</a></li>
+                <li><a href="redes_sociais.html">Redes sociais</a></Li>
+            </ul>
+        </div>
+        </header>
+
+        <div id="imagemprincipal">
+        </div>
+
+        <div id="textocontato">
+            <h1>CONTATO</h1>
+            <h2>Escreva sua mensagem:</h2>
+            <p>Se você deseja convidar para eventos, por favor preencha o formulário abaixo, ou chame no número do WhatsApp informado.</p>
+        </div>
+
+        <form method="POST" id="fContato" action="https://formsubmit.co/pedrosilvafish2@gmail.com">
+            <fieldset id="contato">
+               <p>
+                    <label for:"cNome">Nome:<br></label>
+                    <input type="text" name="Nome" id="cNome" size:"25" maxlength="30" placeholder="Nome completo"/>
+                </p>
+                <p>
+                    <label for="cEmail">E-mail:<br></label>
+                    <input type="email" name="Email" id="cEmail" maxlength="40" placeholder="exemple@gmail.com" required>
+                </p>
+                <p>
+                    <label for="cTel">Telefone:<br></label>
+                    <input type="tel" name="Telelone" id="cTel" max="12" placeholder="(DDD) 12345-6789" required/>
+                </p>
+                <p>
+                    <label for="cTipoEvento">Tipo de Evento:<br></label>
+                    <select name="Tipo de Evento" id="cTipoEvento">
+                        <option value="Igreja">Igreja</option>
+                        <option value="Evento de Prefeitira">Evento de Prefeitura</option>
+                        <option value="Privado">Privado</option>
+                    </select></p>
+                <p>
+                    <label for="NomeDoEvento">Nome do Evento:<br></label>
+                    <input type="text" name="tNomeDoEvento" id="cNomeDoEvento" size="30" maxlength="50" placeholder="Digite o nome do seu evento.">
+                </p>
+                <p>
+                    <label for="cSera">O Evento será:<br></label>
+                    <select name="tSera" id="cSera"> 
+                        <option value="público">Aberto ao público/Grátis</option>
+                        <option value="pago">Bilhetado/Pago</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="cEstimativa">Estimativa de pessoas e/ou capacidade do local:<br></label>
+                    <input type="number" name="tEstimativa" id="cEstimativa" size="10" maxlength="20" placeholder="Digite a quantidade de pessoas no evento">
+                </p>
+                <p>
+                    <label for="cLocal">Local do Evento, Cidade, UF:<br></label>
+                    <input type="text" name="tLocal" id="cLocal" size="60" maxlength="60" placeholder="Ex: Igreja Projeto Vida, Volta Redonda, RJ">
+                </p>
+                <p>
+                    <label for="cData">Data e horário do Evento:<br></label>
+                    <input type="datetime-local" name="tData" id="cData"> 
+                </p>
+                <p>
+                    <label for="cResponsavel">Nome do Responsável:<br></label>
+                    <input type="text" name="tResponsavel" id="cResponsavel" size="20" maxlength="30" required>
+                </p>
+                <p>
+                    <label for="cInfo">O que mais precisamos saber sobre seu evento:<br></label>
+                    <textarea name="Mais informações" id="cInfo" rows="40" cols="5" placeholder="Digite mais informações sobre seu evento."></textarea></p>
+            </fieldset>
+
+            <input type="submit" id="enviar" value="Enviar"> 
+        </form>
+
+        <div id="emailzapzap">
+            <div class="caixaemailzapzap" id="emailzap">
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" ><img src="imagens/icone_email_dourado.png" id="email" alt="Logo Email"></a>
+                <h2><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" >Email</a></h2>
+                <p>pedrosilvafish1@gmail.com</p>
+
+            </div>
+            <div class="caixaemailzapzap" id="zap">
+                <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank" ><img src="imagens/icone_whats_dourado.png" id="whats" alt="Logo Whats"></a>
+                <h2><a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank" >WhatsApp</a></h2>
+                <p>(24) 992074595</p>
+            </div>
+
+        </div>
+        <footer id="rodape">
+            <p>&copy; Projeto Vida Music - Todos os direitos reservados. Desenvolvido por Pedro Silva Fish.</p>
+        </footer>
+    </div>
+    </body>
+</html>
